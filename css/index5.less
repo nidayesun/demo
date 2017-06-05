@@ -1,0 +1,206 @@
+#header{
+    width: 100%;
+    height: 50px;
+     line-height: 50px;
+    padding: 0 10px;
+    background-color: #ff841d;
+     text-align: center;
+    span{
+      font-size: 25px;
+      color: white;
+      font-weight: 700;
+      font-family: "微软雅黑"
+    }
+    .logo{
+       float: left;
+        height: 50px;
+        a{
+             line-height: 50px;
+            font-size:25px;
+            color: white;
+            img{
+               height: 25px;
+            }
+        }
+    }
+    .app-download{
+        float: right;
+      a{
+       img{
+           height: 34px;
+       }
+      }
+    }
+}
+#search {
+    form {
+        display: flex;
+        padding: 10px;
+        input[type="search"] {
+            flex: 1;
+            border: none;
+            background: #f1f1f1;
+            border-radius: 15px;
+            padding-left: 18px;
+            margin-right: 10px;
+        }
+        input[type="button"] {
+            width: 63px;
+            height: 30px;
+            color: #fff;
+            border: none;
+            line-height: 30px;
+            border-radius: 15px;
+            background-color: #ff841d;
+        }
+    }
+}
+
+#conter{
+    border-top: 10px solid #f1f1f1;
+    padding: 10px 0 0 0;
+    .item{
+        width: 25%;
+        text-align: center;
+        float: left;
+         margin-bottom: 10px;
+       &:nth-last-child(-n+4) {
+            display: none;
+        }
+        a{
+            display: block;
+            
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            p{
+            margin-bottom: 0;
+            margin-top: 5px;
+            }
+            
+        }
+    }
+}
+
+#shop{
+    width: 100%;
+    .shop_f{
+        width: 100%;    
+        height: 120px;
+        // margin-bottom: 10px;
+         border-bottom: 1px solid #f1f1f1;
+          padding: 10px;
+        a{
+         display: block;
+        width: 100px;
+        height: 100px;
+        float: left;
+         margin-right: 10px;
+            img{
+                float: left;
+                height: 100px;
+                right: 10px;
+            }
+        }
+        .shop_d{
+              margin-left: 10px;
+            .media-heading{
+                   min-height: 28px;
+                   max-height: 40px;
+                    line-height: 1.5;
+                    text-align-last: left;
+                  -webkit-line-clamp: 3;
+                   display: -webkit-box;
+                   -webkit-box-orient: vertical;
+                    overflow: hidden;
+                span{
+                    color: #ff841d;
+                }
+            }
+            .media{
+              
+                span{
+                    color: #a1a1a1;
+                    font-size: 12px;
+                    i{
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+#product-con{
+    // background-color: #d4d4d4;
+  .page{
+      margin-top: 20px;
+    display: flex;
+    text-align: center;
+
+    span{
+      flex:1;
+      >a{
+        background-color: #d4d4d4;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f1f1), to(#d4d4d4));
+        border-radius: 5px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 32px;
+        overflow: hidden;
+        padding: 8px 10px;
+      }
+      #select{
+        border: 1px solid #bababa;
+        font-size: 16px;
+        padding: 4px 15px;
+      
+        height: 36px;
+      }
+    }
+
+  }
+}
+#foot{
+     width: 100%;
+     margin-top: 20px;
+     
+     border-radius: 3px;
+  .loginbox{
+      width: 100%;
+      background-color:#f1f1f1;
+      text-align: center;
+      line-height: 30px;
+      height: 30px;
+      border: 1px solid #a1a1a1;
+      .login{
+        width: 30%;
+         float: left;
+        border-right: 1px solid #c4c4c4;
+      }
+      .resgiter{
+           width: 30%;
+            float: left;
+                border-right: 1px solid #c4c4c4;
+      }
+      .goTop{
+          width: 40%;
+           float: left;
+      }
+  }
+  .login-bottom{
+      text-align: center;
+      margin-top: 10px;
+     
+      .p-top{
+        font-size: 12px;
+        &:first-child(1){
+            color:red;
+        }
+      }
+      p{
+          margin-bottom: 0;
+      }
+  }
+}
